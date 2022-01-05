@@ -1,0 +1,25 @@
+@use "../../index.scss";
+
+header {
+   height: index.$header;
+   position: relative;
+   nav {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .menu {
+         display: flex;
+         gap: index.$mg-2;
+         li {
+            list-style: none;
+            a {
+               text-decoration: none;
+               color: index.$white;
+               font-size: index.$small;
+               text-transform: uppercase;
+            }
+         }
+      }
+   }
+}
