@@ -3,3 +3,70 @@
    margin: 0;
    box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+// ==== breaking points ==== //
+$mobile-breaking-point: 375px;
+$ipad-breaking-point: 800px;
+$laptop-breaking-point: 1200px;
+
+// ==== colors ==== //
+$background: #222222;
+$footer-background: #111111;
+$white: #fff;
+$blue: #19b5fe;
+$gray: #707070;
+
+// ==== font-size and typography ==== //
+$small: 14px;
+$medium-1: 20px;
+$medium-2: 24px;
+$large-1: 28px;
+$large-2: 50px;
+$large-3: 80px;
+
+$light: 300;
+$regular: 400;
+$normal: 500;
+$semi-bold: 600;
+$bold: 700;
+
+$font-family: "Poppins", sans-serif;
+
+// ==== margins ==== //
+$mg-1: 0.5rem;
+$mg-2: 1rem;
+$mg-3: 1.5rem;
+$mg-4: 2rem;
+$mg-5: 2.5rem;
+$mg-6: 3rem;
+
+// ==== layout ==== //
+.bd-container {
+   max-width: 1200px;
+   padding-left: $mg-2;
+   padding-right: $mg-2;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.section {
+   padding-top: $mg-6;
+   padding-bottom: $mg-6;
+}
+
+.title {
+   font-size: $large-1;
+   color: $white;
+   font-weight: $semi-bold;
+}
+.title {
+   font-size: $medium-1;
+   color: $white;
+   font-weight: $semi-bold;
+}
+
+.text {
+   font-size: $small;
+   color: $white;
+   font-weight: $normal;
+}
