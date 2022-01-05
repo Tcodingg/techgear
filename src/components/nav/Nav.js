@@ -22,6 +22,9 @@ const Nav = () => {
                   <a href="##">contacts </a>
                </li>
             </ul>
+            <div className="burger-container">
+               <div className="burger-icon"></div>
+            </div>
          </nav>
       </header>
    );
