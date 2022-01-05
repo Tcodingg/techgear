@@ -4,7 +4,7 @@ header {
    height: index.$header;
    position: relative;
    width: 100%;
-   z-index: 10000;
+
    nav {
       height: 100%;
       display: flex;
@@ -47,7 +47,7 @@ header {
             height: 0;
             overflow: hidden;
          }
-         .isOpen {
+         .menu.isOpen {
             height: calc(100vh - 3.5rem);
          }
 
@@ -73,6 +73,7 @@ header {
                   width: 30px;
                   background-color: index.$white;
                   transform: translateY(-5px);
+                  transition: all 0.3s ease-out;
                }
                &::after {
                   content: "";
@@ -81,7 +82,14 @@ header {
                   width: 30px;
                   background-color: index.$white;
                   transform: translateY(5px);
+                  transition: all 0.3s ease-out;
                }
+            }
+            .burger-icon.isOpen::before {
+               transform: rotate(45deg);
+            }
+            .burger-icon.isOpen::after {
+               transform: rotate(-45deg);
             }
          }
       }
