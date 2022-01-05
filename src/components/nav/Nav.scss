@@ -10,6 +10,9 @@ header {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      .logo-container {
+         display: flex;
+      }
       .menu {
          display: flex;
          gap: index.$mg-2;
