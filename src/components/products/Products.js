@@ -7,6 +7,7 @@ const Products = () => {
             return (
                <div className="items-wrapper">
                   <img src={item.img} alt="" />
+                  <img src={item.shadow} alt="" />
                   <p className="sub-title">{item.title}</p>
                </div>
             );

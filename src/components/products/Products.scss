@@ -6,7 +6,7 @@
    margin-top: 3rem;
    .items-wrapper {
       margin-top: 4rem;
-      background-color: rgb(56, 56, 56);
+      background-color: rgb(49, 49, 49);
       border-radius: 20px;
       // width: 360px;
       height: 260px;
@@ -19,8 +19,12 @@
          max-width: 250px;
          top: -5rem;
       }
+      img:nth-child(2) {
+         top: 5rem;
+         opacity: 0.3;
+      }
       .sub-title {
-         margin-top: 3rem;
+         margin-top: 6rem;
          text-transform: capitalize;
       }
    }
