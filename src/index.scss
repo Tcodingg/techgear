@@ -75,3 +75,10 @@ $header: 3.5rem;
 body {
    font-family: $font-family;
 }
+
+.flex {
+   display: flex;
+}
+.grid {
+   display: grid;
+}
