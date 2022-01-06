@@ -29,6 +29,24 @@ const App = () => {
                </figure>
             </div>
          </main>
+
+         {/* =======PRODUCTS ============== */}
+         <section className="products section">
+            <div className="products-container bd-container">
+               <h1 className="title">products</h1>
+               <h2 className="sub-title">
+                  Which type of gear are you looking for?
+               </h2>
+               <div className="items-container">
+                  <div className="items-wrapper">
+                     <img src="" alt="" />
+                     <p className="sub-title">subtitle</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         {/* =======SERVICES ============== */}
       </div>
    );
 };

@@ -5,7 +5,7 @@
    main {
       .hero-container {
          flex-direction: column;
-         gap: 10px;
+         gap: 30px;
          .hero-content {
             display: flex;
             flex-direction: column;
@@ -61,15 +61,19 @@
 @media (min-width: index.$ipad-breaking-point) {
    .app {
       main {
-         display: flex;
          height: calc(100vh - 3.5rem);
 
          .hero-container {
+            height: 100%;
             justify-content: space-between;
             align-items: center;
             flex-direction: row;
             .hero-content {
                flex: 1;
+               p,
+               h2 {
+                  max-width: 520px;
+               }
             }
             figure {
                flex: 1;
