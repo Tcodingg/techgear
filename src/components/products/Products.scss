@@ -1,0 +1,27 @@
+@use "../../index.scss";
+.items-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 30px;
+   margin-top: 3rem;
+   .items-wrapper {
+      margin-top: 4rem;
+      background-color: rgb(56, 56, 56);
+      border-radius: 20px;
+      // width: 360px;
+      height: 260px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      img {
+         position: absolute;
+         max-width: 250px;
+         top: -5rem;
+      }
+      .sub-title {
+         margin-top: 3rem;
+         text-transform: capitalize;
+      }
+   }
+}

@@ -1,7 +1,7 @@
 @use "./index.scss";
 .app {
    background-color: index.$background;
-
+   // ===============Main ============== //
    main {
       .hero-container {
          flex-direction: column;
@@ -56,10 +56,46 @@
          }
       }
    }
+
+   .content-header-wrapper {
+      position: relative;
+      .content-title {
+         color: index.$blue;
+         font-size: index.$large-2;
+         text-transform: uppercase;
+         text-align: center;
+         opacity: 0.3;
+         position: absolute;
+         width: 100%;
+         margin: auto;
+         top: -(index.$mg-5);
+         left: 0;
+         z-index: 10;
+      }
+      .content-sub-title {
+         text-align: center;
+         z-index: 100;
+      }
+   }
+
+   .products {
+      .products-container {
+         // .items-container {
+         //    margin-top: 4rem;
+         //    .items-wrapper {
+         //       background-color: index.$gray;
+         //       border-radius: 20px;
+         //       width: 360px;
+         //       height: 260px;
+         //    }
+         // }
+      }
+   }
 }
 
 @media (min-width: index.$ipad-breaking-point) {
    .app {
+      // ========== Main ===============//
       main {
          height: calc(100vh - 3.5rem);
 
