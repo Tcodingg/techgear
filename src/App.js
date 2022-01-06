@@ -11,9 +11,6 @@ const App = () => {
             <div className="hero-container flex bd-container">
                <div className="hero-content">
                   <h1 className="title hero-header">g502 hero wireless</h1>
-                  <h2 className="sub-title">
-                     logitech's high performance wireless gaming mouse
-                  </h2>
                   <p className="text">
                      The Razor Ouroboros is outfitted with the most advanced &
                      configurable sensor yet, the all-new 8200dpi 4G laser
