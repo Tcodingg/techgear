@@ -15,8 +15,8 @@ const App = () => {
                   <p className="text">
                      The Razor Ouroboros is outfitted with the most advanced &
                      configurable sensor yet, the all-new 8200dpi 4G laser
-                     sensor. It tracks so y, you always hist target exactly
-                     where you nee to.
+                     sensor. It tracks so precisely, you always hit targets
+                     exactly where you need to.
                   </p>
                   <h2 className="sub-title price">$99.99</h2>
                   <div className="btn-container">

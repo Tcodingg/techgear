@@ -31,10 +31,12 @@
                   color: index.$white;
                   background-color: transparent;
                   outline: none;
-                  padding: 13px index.$mg-3;
+                  padding: 7px index.$mg-3;
                   border: 1px solid index.$gray;
                   border-radius: 5px;
                   font-weight: index.$semi-bold;
+                  font-family: index.$font-family;
+                  cursor: pointer;
                }
                :first-child {
                   background-color: index.$blue;

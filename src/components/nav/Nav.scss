@@ -16,6 +16,7 @@ header {
       .menu {
          display: flex;
          gap: index.$mg-2;
+         z-index: 10000;
          li {
             list-style: none;
             a {
