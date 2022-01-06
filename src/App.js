@@ -2,6 +2,7 @@ import Nav from "./components/nav/Nav";
 import hero from "./images/hero.svg";
 import "./App.scss";
 import Products from "./components/products/Products";
+import Services from "./components/services/Services";
 const App = () => {
    return (
       <div className="app">
@@ -40,19 +41,22 @@ const App = () => {
                      Which type of gear are you looking for?
                   </h2>
                </div>
-
-               {/* <div className="items-container">
-                  <div className="items-wrapper">
-                     <img src="" alt="" />
-                     <p className="sub-title">subtitle</p>
-                  </div>
-               </div> */}
-
                <Products />
             </div>
          </section>
 
          {/* =======SERVICES ============== */}
+         <section className="services section">
+            <div className="services-container content bd-container">
+               <div className="content-header-wrapper">
+                  <h1 className="title content-title ">services</h1>
+                  <h2 className="sub-title content-sub-title">
+                     We provide more than high-tech products!
+                  </h2>
+               </div>
+               <Services />
+            </div>
+         </section>
       </div>
    );
 };
