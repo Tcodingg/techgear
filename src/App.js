@@ -5,10 +5,10 @@ const App = () => {
    return (
       <div className="app">
          <Nav />
-         <main className="hero">
+         <main className="hero section">
             <div className="hero-container flex bd-container">
                <div className="hero-content">
-                  <h1 className="title">g502 hero wireless</h1>
+                  <h1 className="title hero-header">g502 hero wireless</h1>
                   <h2 className="sub-title">
                      logitech's high performance wireless gaming mouse
                   </h2>
@@ -18,7 +18,7 @@ const App = () => {
                      sensor. It tracks so y, you always hist target exactly
                      where you nee to.
                   </p>
-                  <h2 className="sub-title">$99.99</h2>
+                  <h2 className="sub-title price">$99.99</h2>
                   <div className="btn-container">
                      <button>Get it early</button>
                      <button>more details</button>

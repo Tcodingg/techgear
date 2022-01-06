@@ -1,4 +1,55 @@
 @use "./index.scss";
 .app {
    background-color: index.$background;
+
+   main {
+      .hero-container {
+         flex-direction: column;
+         gap: 10px;
+         .hero-content {
+            display: flex;
+            flex-direction: column;
+            gap: index.$mg-2;
+            .hero-header {
+               font-size: index.$large-2;
+               text-transform: uppercase;
+               line-height: 1;
+            }
+            .sub-title {
+               color: index.$gray;
+               text-transform: capitalize;
+            }
+            .price {
+               color: index.$blue;
+               font-size: index.$large-1;
+            }
+            .btn-container {
+               display: flex;
+               gap: index.$mg-2;
+               button {
+                  text-transform: uppercase;
+                  color: index.$white;
+                  background-color: transparent;
+                  outline: none;
+                  padding: 13px index.$mg-3;
+                  border: 1px solid index.$gray;
+                  border-radius: 5px;
+                  font-weight: index.$semi-bold;
+               }
+               :first-child {
+                  background-color: index.$blue;
+               }
+            }
+         }
+         figure {
+            width: 100%;
+            position: relative;
+            img {
+               width: 100%;
+               height: auto;
+               display: block;
+            }
+         }
+      }
+   }
 }
