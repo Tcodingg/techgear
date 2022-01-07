@@ -106,7 +106,6 @@ const App = () => {
                         <li>FAQ's</li>
                         <li>Terms of Use</li>
                         <li>Privacy policy</li>
-
                         <li>personalized</li>
                      </ul>
                   </div>
