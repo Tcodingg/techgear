@@ -79,7 +79,7 @@ const App = () => {
          <section className="contact section">
             <div className="contact-container content bd-container">
                <div className="content-header-wrapper">
-                  <h1 className="title content-title">contract</h1>
+                  <h1 className="title content-title">contact</h1>
                   <h2 className="sub-title content-sub-title">
                      Request for early access to our products
                   </h2>
