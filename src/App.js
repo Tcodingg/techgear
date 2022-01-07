@@ -3,6 +3,7 @@ import hero from "./images/hero.svg";
 import "./App.scss";
 import Products from "./components/products/Products";
 import Services from "./components/services/Services";
+import Slides from "./components/slides/Slides";
 const App = () => {
    return (
       <div className="app">
@@ -62,6 +63,9 @@ const App = () => {
                   <h2 className="sub-title content-sub-title">
                      Some of our latest members that enjoy our services
                   </h2>
+               </div>
+               <div className="slides">
+                  <Slides />
                </div>
             </div>
          </section>
