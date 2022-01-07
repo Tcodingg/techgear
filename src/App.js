@@ -54,6 +54,17 @@ const App = () => {
                <Services />
             </div>
          </section>
+         {/* =======MEMBERS ============== */}
+         <section className="members section">
+            <div className="members-container content bd-container">
+               <div className="content-header-wrapper">
+                  <h1 className="title content-title">members</h1>
+                  <h2 className="sub-title content-sub-title">
+                     Some of our latest members that enjoy our services
+                  </h2>
+               </div>
+            </div>
+         </section>
       </div>
    );
 };
