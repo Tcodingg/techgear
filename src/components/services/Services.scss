@@ -13,7 +13,7 @@
       img {
          max-width: 100px;
          height: auto;
-         flex: 1;
+         flex-shrink: 1;
       }
    }
 }
@@ -21,10 +21,6 @@
 @media (max-width: 848px) {
    .service-container {
       grid-template-columns: 1fr;
-      //   margin-top: 3rem;
-      .service-wrapper {
-         //  margin-top: 1rem;
-      }
    }
 }
 
@@ -32,6 +28,9 @@
    .service-container {
       .service-wrapper {
          flex-direction: column;
+         text-align: center;
+         padding: 1rem 2rem;
+         gap: 10px;
       }
    }
 }
