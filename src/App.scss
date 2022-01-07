@@ -76,6 +76,33 @@
          z-index: 100;
       }
    }
+
+   // ============= Footer =========== //
+   footer {
+      background-color: index.$footer-background;
+      padding-bottom: 10px;
+      .footer-container {
+         .footer-top {
+            justify-content: space-between;
+            flex-wrap: wrap;
+            color: index.$white;
+            small {
+               text-transform: uppercase;
+            }
+            ul li {
+               list-style: none;
+               font-size: 12px;
+               text-transform: capitalize;
+               line-height: 2;
+            }
+         }
+         .footer-bottom {
+            small {
+               font-size: 10px;
+            }
+         }
+      }
+   }
 }
 
 @media (min-width: index.$ipad-breaking-point) {

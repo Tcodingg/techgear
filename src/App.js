@@ -5,6 +5,7 @@ import Products from "./components/products/Products";
 import Services from "./components/services/Services";
 import Slides from "./components/slides/Slides";
 import Form from "./components/Form/Form";
+import logo from "./images/logo.svg";
 const App = () => {
    return (
       <div className="app">
@@ -30,7 +31,6 @@ const App = () => {
                </figure>
             </div>
          </main>
-
          {/* =======PRODUCTS ============== */}
          <section className="products section">
             <div className="products-container content bd-container">
@@ -43,7 +43,6 @@ const App = () => {
                <Products />
             </div>
          </section>
-
          {/* =======SERVICES ============== */}
          <section className="services section">
             <div className="services-container content bd-container">
@@ -70,7 +69,6 @@ const App = () => {
                </div>
             </div>
          </section>
-
          {/* =======CONTACT ============== */}
          <section className="contact section">
             <div className="contact-container content bd-container">
@@ -85,6 +83,41 @@ const App = () => {
                </div>
             </div>
          </section>
+         <footer className="footer section">
+            <div className="footer-container bd-container">
+               <div className="footer-top flex">
+                  <div className="socials">
+                     <img src={logo} alt="" />
+                     <ul></ul>
+                  </div>
+                  <div className="footer-products">
+                     <small>products</small>
+                     <ul>
+                        <li>gaming</li>
+                        <li>graphic designs</li>
+                        <li>Office</li>
+                        <li>family</li>
+                        <li>personalized</li>
+                     </ul>
+                  </div>
+                  <div className="footer-products">
+                     <small>help</small>
+                     <ul>
+                        <li>FAQ's</li>
+                        <li>Terms of Use</li>
+                        <li>Privacy policy</li>
+
+                        <li>personalized</li>
+                     </ul>
+                  </div>
+               </div>
+               <div className="footer-bottom">
+                  <small className="text">
+                     Copyright 2022 &#169; techgear Inc.
+                  </small>
+               </div>
+            </div>
+         </footer>
       </div>
    );
 };
