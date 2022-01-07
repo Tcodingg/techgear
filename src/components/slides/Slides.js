@@ -1,6 +1,10 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import tera from "../../images/tera.svg";
+import tc from "../../images/tc_gaming.svg";
+import space_play from "../../images/space_play.svg";
+import electros from "../../images/electros.svg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -41,10 +45,18 @@ const Slides = () => {
                },
             }}
          >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
+            <SwiperSlide>
+               <img src={tera} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+               <img src={tc} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+               <img src={space_play} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+               <img src={electros} alt="" />
+            </SwiperSlide>
          </Swiper>
       </>
    );
