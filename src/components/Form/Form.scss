@@ -1,0 +1,36 @@
+@use "../../index.scss";
+form {
+   display: flex;
+   flex-direction: column;
+   max-width: 500px;
+   margin: auto;
+   gap: 20px;
+
+   input,
+   textarea,
+   button {
+      font-family: index.$font-family;
+      outline: none;
+      height: 40px;
+      border: 1px solid #e1e1e1;
+      border-radius: 5px;
+      font-size: 16px;
+      padding: 0 5px;
+   }
+
+   textarea {
+      height: 100px;
+      resize: none;
+   }
+   button {
+      background-color: index.$blue;
+      border: none;
+      color: index.$white;
+      text-transform: uppercase;
+      transition: all 0.3s ease-out;
+      &:hover {
+         opacity: 0.9;
+         cursor: pointer;
+      }
+   }
+}

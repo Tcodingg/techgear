@@ -4,6 +4,7 @@ import "./App.scss";
 import Products from "./components/products/Products";
 import Services from "./components/services/Services";
 import Slides from "./components/slides/Slides";
+import Form from "./components/Form/Form";
 const App = () => {
    return (
       <div className="app">
@@ -66,6 +67,21 @@ const App = () => {
                </div>
                <div className="slides">
                   <Slides />
+               </div>
+            </div>
+         </section>
+
+         {/* =======CONTACT ============== */}
+         <section className="contact section">
+            <div className="contact-container content bd-container">
+               <div className="content-header-wrapper">
+                  <h1 className="title content-title">contract</h1>
+                  <h2 className="sub-title content-sub-title">
+                     Request for early access to our products
+                  </h2>
+               </div>
+               <div className="contact-wrapper">
+                  <Form />
                </div>
             </div>
          </section>
