@@ -12,9 +12,9 @@ import "swiper/css/navigation";
 
 import "./Slides.scss";
 
-import SwiperCore, { Pagination, Navigation } from "swiper";
+import SwiperCore, { Pagination, Navigation, Autoplay } from "swiper";
 
-SwiperCore.use([Pagination, Navigation]);
+SwiperCore.use([Pagination, Navigation, Autoplay]);
 
 const Slides = () => {
    return (
@@ -39,6 +39,10 @@ const Slides = () => {
                1024: {
                   slidesPerView: 4,
                },
+            }}
+            autoplay={{
+               delay: 2500,
+               disableOnInteraction: false,
             }}
          >
             <SwiperSlide>
