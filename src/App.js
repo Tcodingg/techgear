@@ -6,6 +6,12 @@ import Services from "./components/services/Services";
 import Slides from "./components/slides/Slides";
 import Form from "./components/Form/Form";
 import logo from "./images/logo.svg";
+import {
+   RiFacebookLine,
+   RiInstagramLine,
+   RiTwitterLine,
+   RiPinterestLine,
+} from "react-icons/ri";
 const App = () => {
    return (
       <div className="app">
@@ -88,15 +94,27 @@ const App = () => {
                <div className="footer-top flex">
                   <div className="socials">
                      <img src={logo} alt="" />
-                     <ul></ul>
+                     <ul>
+                        <li>
+                           <RiFacebookLine />
+                        </li>
+                        <li>
+                           <RiInstagramLine />
+                        </li>
+                        <li>
+                           <RiTwitterLine />
+                        </li>
+                        <li>
+                           <RiPinterestLine />
+                        </li>
+                     </ul>
                   </div>
                   <div className="footer-products">
                      <small>products</small>
                      <ul>
                         <li>gaming</li>
-                        <li>graphic designs</li>
+                        <li>graphics </li>
                         <li>Office</li>
-                        <li>family</li>
                         <li>personalized</li>
                      </ul>
                   </div>
@@ -106,7 +124,6 @@ const App = () => {
                         <li>FAQ's</li>
                         <li>Terms of Use</li>
                         <li>Privacy policy</li>
-                        <li>personalized</li>
                      </ul>
                   </div>
                </div>
