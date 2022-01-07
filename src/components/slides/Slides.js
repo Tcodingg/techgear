@@ -6,24 +6,20 @@ import tc from "../../images/tc_gaming.svg";
 import space_play from "../../images/space_play.svg";
 import electros from "../../images/electros.svg";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import "./Slides.scss";
 
-// import Swiper core and required modules
 import SwiperCore, { Pagination, Navigation } from "swiper";
 
-// install Swiper modules
 SwiperCore.use([Pagination, Navigation]);
 
 const Slides = () => {
    return (
       <>
          <Swiper
-            // slidesPerView={3}
             spaceBetween={30}
             slidesPerGroup={1}
             loop={true}
@@ -34,10 +30,10 @@ const Slides = () => {
             navigation={true}
             className="mySwiper"
             breakpoints={{
-               640: {
+               540: {
                   slidesPerView: 1,
                },
-               768: {
+               640: {
                   slidesPerView: 2,
                },
                1024: {
