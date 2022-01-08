@@ -59,7 +59,7 @@ const Form = () => {
       return setPhoneValue(input);
    }, [phone]);
 
-   console.log(isValidEmail, isValidName, isValidPhone);
+   //console.log(isValidEmail, isValidName, isValidPhone);
 
    useEffect(() => {
       function validateInput() {
@@ -92,27 +92,33 @@ const Form = () => {
    };
    return (
       <form>
-         <input
-            onChange={handleChange}
-            type="text"
-            name="name"
-            placeholder="Name"
-            value={input.name}
-         />
-         <input
-            onChange={handleChange}
-            type="text"
-            name="email"
-            placeholder="Email"
-            value={input.email}
-         />
-         <input
-            onChange={handleChange}
-            type="text"
-            name="phone"
-            placeholder="Phone"
-            value={phoneValue}
-         />
+         <div className="form-control">
+            <input
+               onChange={handleChange}
+               type="text"
+               name="name"
+               placeholder="Name"
+               value={input.name}
+            />
+         </div>
+         <div className="form-control">
+            <input
+               onChange={handleChange}
+               type="text"
+               name="email"
+               placeholder="Email"
+               value={input.email}
+            />
+         </div>
+         <div className="form-control">
+            <input
+               onChange={handleChange}
+               type="text"
+               name="phone"
+               placeholder="Phone"
+               value={phoneValue}
+            />
+         </div>
          <textarea
             onChange={handleChange}
             name="message"
@@ -122,6 +128,7 @@ const Form = () => {
             placeholder="Message"
             value={input.message}
          ></textarea>
+
          <button onClick={handleSubmit}>Submit</button>
       </form>
    );
