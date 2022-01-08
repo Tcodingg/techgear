@@ -100,6 +100,11 @@ const Form = () => {
                placeholder="Name"
                value={input.name}
             />
+            {isValidName === false ? (
+               <small>Please enter a valid name!</small>
+            ) : (
+               ""
+            )}
          </div>
          <div className="form-control">
             <input
@@ -109,6 +114,11 @@ const Form = () => {
                placeholder="Email"
                value={input.email}
             />
+            {isValidEmail === false ? (
+               <small>Please enter a valid Email!</small>
+            ) : (
+               ""
+            )}
          </div>
          <div className="form-control">
             <input
@@ -118,6 +128,11 @@ const Form = () => {
                placeholder="Phone"
                value={phoneValue}
             />
+            {isValidPhone === false ? (
+               <small>Please enter a valid phone number!</small>
+            ) : (
+               ""
+            )}
          </div>
          <textarea
             onChange={handleChange}

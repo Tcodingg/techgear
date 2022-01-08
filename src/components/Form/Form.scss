@@ -21,11 +21,19 @@ form {
    .form-control {
       width: 100%;
       position: relative;
+      small {
+         position: absolute;
+         color: index.$white;
+         left: 5px;
+         bottom: -1rem;
+         font-size: 10px;
+      }
    }
 
    textarea {
       height: 100px;
       resize: none;
+      padding-top: 10px;
    }
    button {
       background-color: index.$blue;
