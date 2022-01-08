@@ -3,9 +3,9 @@ import "./Services.scss";
 const Services = () => {
    return (
       <div className="service-container">
-         {servicesData.map((items) => {
+         {servicesData.map((items, i) => {
             return (
-               <div className="service-wrapper">
+               <div key={i} className="service-wrapper">
                   <img src={items.img} alt="" />
                   <div>
                      <h2 className="sub-title">{items.title}</h2>

@@ -3,9 +3,9 @@ import { productsData } from "./productsData";
 const Products = () => {
    return (
       <div className="items-container">
-         {productsData.map((item) => {
+         {productsData.map((item, i) => {
             return (
-               <div className="items-wrapper">
+               <div key={i} className="items-wrapper">
                   <img src={item.img} alt="" />
                   <img src={item.shadow} alt="" />
                   <p className="sub-title">{item.title}</p>
