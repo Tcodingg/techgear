@@ -89,6 +89,18 @@ const Form = () => {
    // handle submit
    const handleSubmit = (e) => {
       e.preventDefault();
+      if (isValidEmail && isValidEmail && isValidPhone) {
+         window.location.reload();
+      }
+      if (!isValidName) {
+         setIsValidName(false);
+      }
+      if (!isValidEmail) {
+         setIsValidEmail(false);
+      }
+      if (!isValidPhone) {
+         setIsValidPhone(false);
+      }
    };
    return (
       <form>
