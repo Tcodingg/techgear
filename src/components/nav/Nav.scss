@@ -19,6 +19,20 @@ header {
          z-index: 10000;
          li {
             list-style: none;
+            position: relative;
+            &::after {
+               content: "";
+               position: absolute;
+               width: 0;
+               height: 2px;
+               background-color: index.$blue;
+               bottom: -2px;
+               left: 0;
+               transition: all 0.3s ease-out;
+            }
+            &:hover::after {
+               width: 100%;
+            }
             a {
                text-decoration: none;
                color: index.$white;
