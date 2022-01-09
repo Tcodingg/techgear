@@ -16,7 +16,7 @@ const App = () => {
    return (
       <div className="app">
          <Nav />
-         <main className="hero section">
+         <main id="home" className="hero section">
             <div className="hero-container flex bd-container">
                <div className="hero-content">
                   <h1 className="title hero-header">g502 hero wireless</h1>
@@ -38,7 +38,7 @@ const App = () => {
             </div>
          </main>
          {/* =======PRODUCTS ============== */}
-         <section className="products section">
+         <section id="products" className="products section">
             <div className="products-container content bd-container">
                <div className="content-header-wrapper">
                   <h1 className="title content-title ">products</h1>
@@ -50,7 +50,7 @@ const App = () => {
             </div>
          </section>
          {/* =======SERVICES ============== */}
-         <section className="services section">
+         <section id="services" className="services section">
             <div className="services-container content bd-container">
                <div className="content-header-wrapper">
                   <h1 className="title content-title ">services</h1>
@@ -62,7 +62,7 @@ const App = () => {
             </div>
          </section>
          {/* =======MEMBERS ============== */}
-         <section className="members section">
+         <section id="members" className="members section">
             <div className="members-container content bd-container">
                <div className="content-header-wrapper">
                   <h1 className="title content-title">members</h1>
@@ -76,7 +76,7 @@ const App = () => {
             </div>
          </section>
          {/* =======CONTACT ============== */}
-         <section className="contact section">
+         <section id="contact" className="contact section">
             <div className="contact-container content bd-container">
                <div className="content-header-wrapper">
                   <h1 className="title content-title">contact</h1>
