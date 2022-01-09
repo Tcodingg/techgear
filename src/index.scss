@@ -4,6 +4,10 @@
    box-sizing: border-box;
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+html {
+   scroll-behavior: smooth;
+}
+
 // ==== breaking points ==== //
 $mobile-breaking-point: 475px;
 $ipad-breaking-point: 700px;

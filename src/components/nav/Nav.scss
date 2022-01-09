@@ -2,9 +2,10 @@
 
 header {
    height: index.$header;
-   position: relative;
+   position: fixed;
    width: 100%;
-
+   background-color: index.$background;
+   z-index: 10000;
    nav {
       height: 100%;
       display: flex;

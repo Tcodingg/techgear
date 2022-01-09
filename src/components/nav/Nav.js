@@ -12,16 +12,16 @@ const Nav = () => {
             </div>
             <ul className={`menu ${isOpen ? "isOpen" : ""}`}>
                <li onClick={() => setIsOpen(false)}>
-                  <a href="##">home</a>
+                  <a href="#home">home</a>
                </li>
                <li onClick={() => setIsOpen(false)}>
-                  <a href="##">products</a>
+                  <a href="#products">products</a>
                </li>
                <li onClick={() => setIsOpen(false)}>
-                  <a href="##">services</a>
+                  <a href="#services">services</a>
                </li>
                <li onClick={() => setIsOpen(false)}>
-                  <a href="##">contacts </a>
+                  <a href="#contact">contact </a>
                </li>
             </ul>
             <div
