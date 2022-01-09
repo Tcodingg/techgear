@@ -28,8 +28,8 @@ const App = () => {
                   </p>
                   <h2 className="sub-title price">$99.99</h2>
                   <div className="btn-container">
-                     <button>Get it early</button>
-                     <button>more details</button>
+                     <a href="#contact">Get it early</a>
+                     <a href="#products">more details</a>
                   </div>
                </div>
                <figure>

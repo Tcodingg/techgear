@@ -24,7 +24,7 @@
             .btn-container {
                display: flex;
                gap: index.$mg-2;
-               button {
+               a {
                   text-transform: uppercase;
                   color: index.$white;
                   background-color: transparent;
@@ -34,7 +34,8 @@
                   border-radius: 5px;
                   font-weight: index.$semi-bold;
                   font-family: index.$font-family;
-                  cursor: pointer;
+                  font-size: 12px;
+                  text-decoration: none;
                }
                :first-child {
                   background-color: index.$blue;
